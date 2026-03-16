@@ -4,7 +4,7 @@
   <img src="imagens/logo_sctec.png" alt="Logo SCTEC" width="300">
 </p>
 
-Este repositório foi criado para documentar o desenvolvimento do meu **projeto final de Análise Exploratória de Dados**, construído em Python a partir do dataset **Titanic**. O projeto foi desenvolvido com fins estudantis como parte da atividade prática extra do curso **Introdução ao Data Science**, pertencente à trilha rápida de **Análise de Dados**, e também integra minha participação no processo seletivo para concorrer a uma bolsa de estudos no **SCTEC**.
+Este repositório foi criado para documentar o desenvolvimento do meu **projeto final de Análise Exploratória de Dados**, construído em Python a partir do dataset **Titanic**. O projeto foi desenvolvido com fins estudantis como parte da atividade prática extra do curso **Introdução ao Data Science**, pertencente à trilha rápida de **Análise de Dados**.
 
 Ao longo deste projeto, apliquei na prática conteúdos estudados durante a formação, como leitura de arquivos CSV, exploração inicial dos dados, tratamento de valores nulos, identificação de duplicidades, filtros, ordenações, agrupamentos com `groupby` e geração de visualizações. A proposta central foi transformar dados brutos em informações mais claras, organizadas e visuais, buscando identificar padrões relevantes relacionados à sobrevivência dos passageiros.
 
@@ -25,7 +25,7 @@ Durante a análise, foram realizadas etapas importantes para a compreensão e or
 - leitura do arquivo CSV
 - visualização das primeiras linhas da base
 - análise das informações gerais das colunas
-- verificação de tipos de dados
+- verificação dos tipos de dados
 - estatísticas descritivas
 - identificação de valores nulos
 - verificação e remoção de duplicidades
@@ -42,7 +42,7 @@ As principais decisões foram:
 
 - preenchimento da coluna de idade com a mediana
 - preenchimento da coluna de embarque com a moda
-- substituição dos valores ausentes da cabine por `Nao informado`
+- substituição dos valores ausentes da cabine por `Não informado`
 - remoção de linhas duplicadas
 
 Além disso, foi criada uma nova coluna chamada **Faixa_Etaria**, classificando os passageiros em:
@@ -60,10 +60,10 @@ As análises desenvolvidas neste projeto buscaram explorar relações importante
 
 - distribuição geral de sobrevivência
 - taxa de sobrevivência por sexo
-- tarifa média por classe social
+- tarifa média por classe
 - distribuição dos passageiros por faixa etária
-- quantidade de pessoas em cada classe social
-- quantidade de sobreviventes de acordo com a classe social
+- quantidade de pessoas em cada classe
+- quantidade de sobreviventes de acordo com a classe
 
 ## Visualizações geradas
 
@@ -85,12 +85,27 @@ A análise mostrou que algumas variáveis possuem forte relação com a sobreviv
 Entre as percepções mais relevantes, destaco:
 
 - mulheres apresentaram taxa de sobrevivência maior do que homens
-- a classe social influenciou tanto o valor da tarifa quanto os índices de sobrevivência
+- a classe dos passageiros influenciou tanto o valor da tarifa quanto os índices de sobrevivência
 - a distribuição por faixa etária ajudou a compreender melhor o perfil dos passageiros
 - o tratamento dos valores nulos foi importante para evitar distorções na análise
 - filtros, agrupamentos e gráficos foram essenciais para transformar os dados em informações mais claras
 
 Mesmo sendo um projeto introdutório, foi possível perceber como uma base de dados real pode gerar análises interessantes quando passa por etapas mínimas de organização, limpeza e visualização.
+
+## Certificação
+
+Este projeto também representa a aplicação prática dos conhecimentos desenvolvidos durante o curso **Introdução ao Data Science**, realizado no **SENAI/SC - LAB 365 Florianópolis**, com **20 horas** de duração.
+
+Ao longo da formação, foram trabalhados conteúdos essenciais para a construção deste projeto, como:
+
+- introdução a Python para dados
+- coleta e tratamento de dados
+- visualização de dados
+- prática com SQL, APIs e noções de nuvem
+
+<p align="center">
+  <img src="imagens/certificado.png" alt="Certificado do curso Introdução ao Data Science - SENAI" width="500">
+</p>
 
 ## Conclusão
 
@@ -100,7 +115,7 @@ Por ter sido desenvolvido com fins educacionais e também como parte de um proce
 
 ## Como executar
 
-1. Instale as dependências:
+1. Clone este repositório:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/SEU-USUARIO/projeto-titanic-sctec.git
