@@ -1,16 +1,12 @@
 # Projeto Final | Análise Exploratória de Dados do Titanic 🚢
 
 <p align="center">
-  <img src="imagens/logo_sctec.png" alt="Logo SCTEC" width="55">
+  <img src="imagens/logo_sctec.png" alt="Logo SCTEC" width="300">
 </p>
 
 Este repositório foi criado para documentar o desenvolvimento do meu **projeto final de Análise Exploratória de Dados**, construído em Python a partir do dataset **Titanic**. O projeto foi desenvolvido com fins estudantis como parte da atividade prática extra do curso **Introdução ao Data Science**, pertencente à trilha rápida de **Análise de Dados**, e também integra minha participação no processo seletivo para concorrer a uma bolsa de estudos no **SCTEC**.
 
 Ao longo deste projeto, apliquei na prática conteúdos estudados durante a formação, como leitura de arquivos CSV, exploração inicial dos dados, tratamento de valores nulos, identificação de duplicidades, filtros, ordenações, agrupamentos com `groupby` e geração de visualizações. A proposta central foi transformar dados brutos em informações mais claras, organizadas e visuais, buscando identificar padrões relevantes relacionados à sobrevivência dos passageiros.
-
-<p align="center">
-  <img src="imagens/logo_sctec.png" alt="Logo SCTEC" width="180">
-</p>
 
 ## Objetivo
 
@@ -100,7 +96,7 @@ Mesmo sendo um projeto introdutório, foi possível perceber como uma base de da
 
 Este projeto foi uma oportunidade importante para aplicar, de forma prática, conteúdos fundamentais estudados ao longo da trilha rápida de **Análise de Dados**. Mais do que apenas executar comandos em Python, o desenvolvimento deste trabalho me permitiu exercitar raciocínio analítico, organização de projeto, interpretação de dados e documentação técnica.
 
-Por ter sido desenvolvido com fins educacionais e também como parte de um processo seletivo, este projeto representa um passo importante na minha trajetória de aprendizado na área de dados e reforça meu interesse em continuar evoluindo tecnicamente por meio do **SCTECH**.
+Por ter sido desenvolvido com fins educacionais e também como parte de um processo seletivo, este projeto representa um passo importante na minha trajetória de aprendizado na área de dados e reforça meu interesse em continuar evoluindo tecnicamente por meio do **SCTEC**.
 
 ## Como executar
 
